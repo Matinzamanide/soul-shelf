@@ -1,0 +1,23 @@
+import CountriesItem, { CountriesItemProps } from "@/components/countries-item/countries-item";
+
+const Countries = async () => {
+
+    
+    const res=await fetch("http://www.sarirniroo.ir/Mobile/countries");
+    const data = await res.json();
+    console.log(data);
+    return ( 
+        <div className="">
+            <div className="w-[90%] mx-auto">
+            <h1 className="text-3xl hidden lg:block font-bold text-center my-8 text-black">Books from ...</h1>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">     
+                {data.map((item:any) => {
+                    return <CountriesItem key={item.flag_url} flag_url={item.flag_url} name={item.name} iso_code={item.iso_code} />;
+                })}    
+            </div>
+            </div>
+        </div>
+     );
+}
+ 
+export default Countries;

@@ -1,0 +1,35 @@
+import { BestSeller } from "@/types/type";
+import Link from "next/link";
+
+const BestSellers = async () => {
+    const res=await fetch('http://www.sarirniroo.ir/Mobile/bestSellers');
+    const data=await res.json() as BestSeller[]; 
+
+    console.log(data)
+    return ( 
+        <div className="bg-[#31353d] text-center pb-10">
+            <div className="text-white w-[80%] mx-auto">
+            <h1 className="text-3xl pt-5">Starting from a familiar bestseller</h1>
+            <p className="text-lg mt-2">You won’t find the biggest bestsellers on Whichbook as everyone knows about them already. But you can use your enjoyment of a current bestseller to see titles with a similar mood that you might try next.</p>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 my-10">
+                {
+                    data.map((item,index)=>{
+                        return <div className="" key={index}>
+                            <Link className="pt-4" href={`/best-sellers-item/${item.title}`}>
+                                <img src={item.main_cover} className="aspect-[1/1.5] mb-4" alt="" />
+                                <p>{item.title} by {item.author}</p>
+                                </Link>
+                        </div> 
+                    })
+                }
+
+            </div>
+
+
+            </div>
+        </div>
+     );
+}
+ 
+export default BestSellers;
