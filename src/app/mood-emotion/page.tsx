@@ -1,54 +1,13 @@
 "use client";
-import { useContext, useEffect, useState } from "react";
-import Container from "@/components/container/container";
+import { useEffect, useState } from "react";
 import BookItem from "@/components/book-item/book-item";
 import Navbar from "@/components/mood-navbar/navbar";
 import axios from "axios";
 import { IBook } from "@/types/type";
-import Menu from "@/components/menu/menu";
-import AppContext from "@/app-context/app-context";
 import Book from "@/components/book/book";
 
 const MoodEmotion = () => {
-  const books = [
-    {
-      id: 1,
-      title: "The Alchemist",
-      author: "Paulo Coelho",
-      moodTags: ["need motivation", "homesick"],
-      description:
-        "A journey of self-discovery with spiritual and motivational themes.",
-      cover:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrgkMIrrsdeAtK9__xA4H0ZsjyZDVjLk1nA&s",
-    },
-    {
-      id: 2,
-      title: "Norwegian Wood",
-      author: "Haruki Murakami",
-      moodTags: ["feeling sad", "feeling nostalgic"],
-      description: "A deeply emotional story of love, loss, and memory.",
-      cover: "https://m.media-amazon.com/images/I/81zqVhvbHbL.jpg",
-    },
-    {
-      id: 3,
-      title: "Atomic Habits",
-      author: "James Clear",
-      moodTags: ["low energy", "need motivation"],
-      description:
-        "A practical guide to building better habits and breaking bad ones.",
-      cover:
-        "https://m.media-amazon.com/images/I/81ANaVZk5LL._AC_UF1000,1000_QL80_.jpg",
-    },
-    {
-      id: 4,
-      title: "Atomic Death of ivan ilych",
-      author: "Leo tolstoy",
-      moodTags: ["feeling sad", "need motivation"],
-      description:
-        "A practical guide to building better habits and breaking bad ones.",
-      cover: "https://covers.libro.fm/9781518909887_1120.jpg",
-    },
-  ];
+ 
 
   const [data, setData] = useState<IBook[]>([]);
   useEffect(() => {
@@ -62,7 +21,6 @@ const MoodEmotion = () => {
       });
   }, []);
   const [selectedMood, setSelectedMood] = useState<string>("");
-  // console.log(data.length==5)
   const filteredBooks = data.filter((book) =>
     book.moodTags.includes(selectedMood)
   );

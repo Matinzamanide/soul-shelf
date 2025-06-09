@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-import "./style.css"; // حتماً فایل CSS رو اضافه کن!
+import "./style.css"; 
 import Link from "next/link";
 
 const Trend = () => {

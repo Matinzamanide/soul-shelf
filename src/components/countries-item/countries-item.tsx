@@ -1,6 +1,4 @@
 import Link from "next/link";
-import React from "react";
-
 export interface CountriesItemProps {
     flag_url: string;
     name:string;

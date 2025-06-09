@@ -13,8 +13,6 @@ const Country: React.FC<ICountryProps> = async (props) => {
   if (!data) {
     return <p className="text-center">No data found</p>;
   }
-  // console.log(data);
-  // console.log(data.common_books);
   data.common_books = data.common_books.map((item: CommonBook) => {
     item.image_url = item.image_url.replace(
       "http://localhost:8000",

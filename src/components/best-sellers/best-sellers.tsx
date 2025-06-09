@@ -12,63 +12,7 @@ import axios from "axios";
 import Link from "next/link";
 
 const BestSellersComponent = () => {
-  const bestSellers = [
-    {
-      id: 1,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11264",
-    },
-    {
-      id: 2,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11232",
-    },
-    {
-      id: 3,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11230",
-    },
-    {
-      id: 4,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11234",
-    },
-    {
-      id: 5,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11228",
-    },
-    {
-      id: 6,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11226",
-    },
-    {
-      id: 7,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11224",
-    },
-    {
-      id: 8,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11218",
-    },
-    {
-      id: 9,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11215",
-    },
-    {
-      id: 10,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11216",
-    },
-    {
-      id: 11,
-      image:
-        "https://www.whichbook.net/BookGrids/BestSellerHomepagePreview/11213",
-    },
-  ];
+  
   const [data, setData] = useState<BestSeller[]>([]);
   useEffect(() => {
     axios("http://www.sarirniroo.ir/Mobile/bestSellers")
