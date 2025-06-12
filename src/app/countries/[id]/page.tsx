@@ -1,8 +1,9 @@
 import type { CommonBook, Country } from "@/types/type";
+import Image from "next/image";
 import Link from "next/link";
 
 interface ICountryProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ id: String }>;
   searchParams: Promise<{}>;
 }
 const Country: React.FC<ICountryProps> = async (props) => {
@@ -20,8 +21,7 @@ const Country: React.FC<ICountryProps> = async (props) => {
     );
     return item;
   });
-  //
-  console.log(data.color_codes[0]);
+  
 
   return (
     <div className="">
@@ -49,10 +49,12 @@ const Country: React.FC<ICountryProps> = async (props) => {
         </p>
         <div className="flex flex-col lg:flex-row justify-between my-10">
           <div className="left  lg:w-[40%]">
-            <img
+            <Image
+            width={224}
+            height={224}
               src={data.flag_url}
               className="rounded-3xl shadow-2xl"
-              alt=""
+              alt={data.flag_url}
             />
           </div>
           <div className="right lg:w-[60%] p-4">
@@ -67,7 +69,9 @@ const Country: React.FC<ICountryProps> = async (props) => {
 >
  {/* Image with subtle overlay on hover */}
  <div className="overflow-hidden relative">
-   <img
+   <Image
+   width={224}
+   height={224}
      src={item.image_url}
      alt={item.title}
      className="w-full  object-cover group-hover:scale-105 transition-transform duration-500"
@@ -94,7 +98,6 @@ const Country: React.FC<ICountryProps> = async (props) => {
        background: `linear-gradient(to right, ${data.color_codes[0]}, ${data.color_codes[1]})`,
      }}
    ></div>
-   {/* View More button with icon and refined hover */}
    {/* <button
      className="mt-4 px-5 py-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white text-sm font-medium shadow-lg hover:from-purple-700 hover:to-pink-700 hover:scale-105 transition-all duration-300 flex items-center justify-center"
    >
@@ -103,7 +106,6 @@ const Country: React.FC<ICountryProps> = async (props) => {
    </button> */}
  </div>
 
- {/* Existing glowing effect */}
  <div className="absolute inset-0 pointer-events-none group-hover:bg-white/5 transition-colors duration-500 rounded-3xl"></div>
 </div>
   ))}

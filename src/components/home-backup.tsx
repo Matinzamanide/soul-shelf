@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const moods = [
@@ -57,7 +58,7 @@ const HomePage = () => {
               key={item.id}
               className="bg-white p-4 rounded-xl shadow-md border border-[#e5e5e5] hover:shadow-lg transition flex flex-col md:flex-row gap-4"
             >
-              <img
+              <Image
                 src={volume.imageLinks?.thumbnail || "/fallback.jpg"}
                 alt={volume.title}
                 className="w-full md:w-32 h-48 object-cover rounded-lg"

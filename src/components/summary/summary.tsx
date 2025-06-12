@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Summary = () => {
@@ -27,7 +28,9 @@ const Summary = () => {
             className="flex flex-col items-center bg-white rounded-2xl  duration-300 p-4 "
           >
               <h2 className="text-xl font-bold mb-2 text-gray-800">{item.title}</h2>
-            <img
+            <Image
+            width={224}
+            height={224}
               src={item.image}
               alt={item.title}
               className="w-56 h-56 object-cover rounded-xl mb-4 border border-gray-300"

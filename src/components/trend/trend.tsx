@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import "./style.css"; 
 import Link from "next/link";
+import Image from "next/image";
 
 const Trend = () => {
   const [data, setData] = useState<IBook[]>([]);
@@ -47,7 +48,9 @@ const Trend = () => {
             <SwiperSlide key={book.id} className="relative group">
               <div className="overflow-hidden rounded-xl shadow-lg border border-gray-800 bg-gradient-to-b from-transparent to-black">
                 <Link href={`/book-page/${book.title}`}>
-                  <img
+                  <Image
+                  width={224}
+                  height={224}
                     src={book.cover || "/fallback.jpg"}
                     alt={book.title}
                     className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500 ease-in-out"

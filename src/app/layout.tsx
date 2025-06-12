@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <AppContextProvider>
-      <Layout>{children}</Layout>
+      <Layout>
+        {children}
+        </Layout>
       </AppContextProvider>
       </body>
     </html>

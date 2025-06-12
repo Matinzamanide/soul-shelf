@@ -2,6 +2,7 @@
 import AppContext from "@/app-context/app-context";
 import { IBook } from "@/types/type";
 import axios from "axios";
+import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
 import { FaTimes } from "react-icons/fa";
 const Book = () => {
@@ -39,25 +40,20 @@ const Book = () => {
         <div className="flex flex-col md:flex-row w-[80%] pl-5 my-10 ">
           <div className="right md:w-[30%] md:mr-14 ">
             <div
-              className="
-  absolute 
-  top-[25px] 
-  left-[-50px] 
-  w-[200px] 
-  h-[50px] 
-  bg-[#0078d7] 
-  text-center 
-  leading-[50px] 
-  tracking-[1px] 
-  text-[#f0f0f0] 
-  rotate-[-45deg] 
-  shadow-[0px_0px_16px_-1px_rgba(0,0,0,0.91)]
+              className="absolute top-[25px] left-[-50px] w-[200px] h-[50px] bg-[#0078d7] text-center leading-[50px] tracking-[1px] text-[#f0f0f0] rotate-[-45deg] shadow-[0px_0px_16px_-1px_rgba(0,0,0,0.91)]
 "
             >
               Best match
             </div>
 
-            <img src={data?.cover} className="border-2 border-white" alt="" />
+            <Image
+  src={data?.cover || "/fallback.jpg"}
+  alt=""
+  className="border-2 border-white"
+  width={500}
+  height={300}
+/>
+
           </div>
 
           <div className="left text-white md:w-[50%] mt-10">
@@ -68,8 +64,8 @@ const Book = () => {
             <p className="text-sm w-[85%]">{data?.extract}</p>
             <p className="font-semibold my-2">Paralles</p>
             <ul className="list-disc ml-10 mt-4 text-sm">
-              {data?.parallels.map((item) => {
-                return <li>{item}</li>;
+              {data?.parallels.map((item,index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ul>
           </div>

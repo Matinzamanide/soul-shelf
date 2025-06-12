@@ -1,4 +1,5 @@
 import { BestSeller } from "@/types/type";
+import Image from "next/image";
 import Link from "next/link";
 
 const BestSellers = async () => {
@@ -17,7 +18,7 @@ const BestSellers = async () => {
                     data.map((item,index)=>{
                         return <div className="" key={index}>
                             <Link className="pt-4" href={`/best-sellers-item/${item.title}`}>
-                                <img src={item.main_cover} className="aspect-[1/1.5] mb-4" alt="" />
+                                <Image width={224} height={224} src={item.main_cover} className="aspect-[1/1.5] mb-4" alt="" />
                                 <p>{item.title} by {item.author}</p>
                                 </Link>
                         </div> 

@@ -5,12 +5,15 @@ import Navbar from "@/components/mood-navbar/navbar";
 import axios from "axios";
 import { IBook } from "@/types/type";
 import Book from "@/components/book/book";
+import BookItemSkelton from "@/components/book-item-skelton/book-item-skelton";
 
 const MoodEmotion = () => {
  
 
   const [data, setData] = useState<IBook[]>([]);
+  const [isLoading,setIsLoading]=useState<boolean>(false);
   useEffect(() => {
+    setIsLoading(true)
     axios("http://www.sarirniroo.ir/Mobile/books")
       .then((result) => {
         setData(result.data);
@@ -18,7 +21,10 @@ const MoodEmotion = () => {
       })
       .catch((error) => {
         console.error("Error fetching Books : ", error);
-      });
+      })
+      .finally(()=>{
+        setIsLoading(false)
+      })
   }, []);
   const [selectedMood, setSelectedMood] = useState<string>("");
   const filteredBooks = data.filter((book) =>
@@ -32,7 +38,11 @@ const MoodEmotion = () => {
         Choose Your Mood
       </h1>
       <Navbar selectedMood={selectedMood} setSelectedMood={setSelectedMood} />
-      <div className="w-[90%] lg:w-[90%] mx-auto">
+      <div className="w-[90%] lg:w-[90%] mx-auto py-10">
+
+    {
+      !isLoading ? (
+        <div className="">
         <div className="grid lg:grid-cols-3  gap-4">
           {filteredBooks.map((item) => {
             return <BookItem key={item.id} {...item} />;
@@ -42,9 +52,19 @@ const MoodEmotion = () => {
         <div className="grid lg:grid-cols-3 gap-4 ">
           {filteredBooks.length === 0 &&
             data.map((item) => {
-              return <BookItem {...item} />;
+              return <BookItem key={item.id} {...item} />;
             })}
         </div>
+        </div>
+      ) : (
+        <div className="grid lg:grid-cols-3 gap-4">
+      {[...Array(10)].map((_, index) => (
+        <BookItemSkelton key={index} />
+      ))}
+    </div>
+      )
+    }
+
       </div>
       <Book />
     </div>

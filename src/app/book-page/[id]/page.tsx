@@ -1,4 +1,5 @@
 import { IBook } from "@/types/type";
+import Image from "next/image";
 
 interface IBookPageProps {
   params: Promise<{ id: string }>;
@@ -19,7 +20,7 @@ const BookPage: React.FC<IBookPageProps> = async (props) => {
         className="min-h-screen text-white p-5 flex flex-col lg:flex-row lg:p-20"
       >
         <div className="right px-6 w-[50%] max-h-[50%] lg:w-[50%]">
-          <img src={data.cover || "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1200px-No-Image-Placeholder.svg.png"} className="border-2  border-white" alt="" />
+          <Image width={224} height={224} src={data.cover || "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1200px-No-Image-Placeholder.svg.png"} className="border-2  border-white" alt="" />
         </div>
         <div className="left mt-10 px-6 lg:w-[50%]">
           <p className="text-2xl font-semibold">{data?.title}</p>

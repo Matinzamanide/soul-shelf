@@ -1,251 +1,9 @@
 {"books":[
-    {
-        "id": 1,
-        "title": "Norwegian Wood",
-        "author": "Haruki Murakami",
-        "description": "A deeply emotional story of love, loss, and memory.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling sad"],
-        "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
-      },
-      {
-        "id": 2,
-        "title": "A Man Called Ove",
-        "author": "Fredrik Backman",
-        "description": "A touching and funny story about a grumpy man's unexpected friendships.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"#6c7347",
-        "moodTags": ["feeling sad"],
-        "cover": "https://covers.openlibrary.org/b/id/8231995-L.jpg"
-      },
-      {
-        "id": 3,
-        "title": "The Bell Jar",
-        "author": "Sylvia Plath",
-        "description": "A semi-autobiographical novel about depression and identity.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling sad"],
-        "cover": "https://covers.openlibrary.org/b/id/8225266-L.jpg"
-      },
-      {
-        "id": 4,
-        "title": "The Little Prince",
-        "author": "Antoine de Saint-Exupéry",
-        "description": "A poetic tale with philosophical insights into life and love.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["low energy"],
-        "cover": "https://covers.openlibrary.org/b/id/8775001-L.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Ikigai",
-        "author": "Francesc Miralles, Hector Garcia",
-        "description": "The Japanese secret to a long and happy life.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["low energy"],
-        "cover": "https://covers.openlibrary.org/b/id/10014561-L.jpg"
-      },
-      {
-        "id": 6,
-        "title": "Steal Like an Artist",
-        "author": "Austin Kleon",
-        "description": "A visual and motivational book for creatives.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["low energy"],
-        "cover": "https://covers.openlibrary.org/b/id/11008344-L.jpg"
-      },
-      {
-        "id": 7,
-        "title": "Atomic Habits",
-        "author": "James Clear",
-        "description": "Build good habits, break bad ones, and master tiny behaviors.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"#f8f8f0",
-        "moodTags": ["need motivation"],
-        "cover": "https://covers.openlibrary.org/b/id/10025084-L.jpg"
-      },
-      {
-        "id": 8,
-        "title": "Can't Hurt Me",
-        "author": "David Goggins",
-        "description": "Overcome mental and physical limitations through mindset.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["need motivation"],
-        "cover": "https://covers.openlibrary.org/b/id/10958326-L.jpg"
-      },
-      {
-        "id": 9,
-        "title": "The Alchemist",
-        "author": "Paulo Coelho",
-        "description": "A journey of personal legend and self-discovery.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"#e64c07",
-        "moodTags": ["need motivation", "homesick"],
-        "cover": "https://covers.openlibrary.org/b/id/9283250-L.jpg"
-      },
-      {
-        "id": 10,
-        "title": "Eleanor Oliphant Is Completely Fine",
-        "author": "Gail Honeyman",
-        "description": "A quirky woman’s journey to emotional healing and happiness.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["happy"],
-        "cover": "https://covers.openlibrary.org/b/id/8445365-L.jpg"
-      },
-      {
-        "id": 11,
-        "title": "The Rosie Project",
-        "author": "Graeme Simsion",
-        "description": "A romantic comedy with an unconventional protagonist.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["happy"],
-        "cover": "https://covers.openlibrary.org/b/id/8880937-L.jpg"
-      },
-      {
-        "id": 12,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "description": "A witty and romantic classic full of charm.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["happy"],
-        "cover": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
-      },
-      {
-        "id": 13,
-        "title": "Persepolis",
-        "author": "Marjane Satrapi",
-        "description": "A graphic memoir of growing up in Iran and France.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"#e4003d",
-        "moodTags": ["homesick"],
-        "cover": "https://images.penguinrandomhouse.com/cover/9780375714573"
-      },
-      {
-        "id": 14,
-        "title": "The Namesake",
-        "author": "Jhumpa Lahiri",
-        "description": "Exploring identity and cultural roots of an Indian-American family.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["homesick"],
-        "cover": "https://covers.openlibrary.org/b/id/7869840-L.jpg"
-      },
-      {
-        "id": 15,
-        "title": "Dear America",
-        "author": "Jose Antonio Vargas",
-        "description": "Memoir of an undocumented immigrant facing identity and longing.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["homesick"],
-        "cover": "https://covers.openlibrary.org/b/id/10051395-L.jpg"
-      },
-      {
-        "id": 16,
-        "title": "Tuesdays with Morrie",
-        "author": "Mitch Albom",
-        "description": "Heartfelt conversations on life, love, and legacy.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling nostalgic"],
-        "cover": "https://covers.openlibrary.org/b/id/8226193-L.jpg"
-      },
-      {
-        "id": 17,
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "description": "A teen’s critical view of the adult world.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling nostalgic"],
-        "cover": "https://covers.openlibrary.org/b/id/8231853-L.jpg"
-      },
-      {
-        "id": 18,
-        "title": "Fahrenheit 451",
-        "author": "Ray Bradbury",
-        "description": "A dystopian story about censorship and memory.",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling nostalgic"],
-        "cover": "https://covers.openlibrary.org/b/id/8228692-L.jpg"
-      },
-      {
-        "id": 19,
-        "title": "The Alchemist",
-        "author": "Paulo Coelho",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["need motivation", "homesick"],
-        "description": "A journey of self-discovery with spiritual and motivational themes.",
-        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrgkMIrrsdeAtK9__xA4H0ZsjyZDVjLk1nA&s"
-      },
-      {
-        "id": 20,
-        "title": "Norwegian Wood",
-        "author": "Haruki Murakami",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling sad", "feeling nostalgic"],
-        "description": "A deeply emotional story of love, loss, and memory.",
-        "cover": "https://m.media-amazon.com/images/I/81zqVhvbHbL.jpg"
-      },
-      {
-        "id": 21,
-        "title": "Atomic Habits",
-        "author": "James Clear",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"#f8f8f0",
-        "moodTags": ["low energy", "need motivation"],
-        "description": "A practical guide to building better habits and breaking bad ones.",
-        "cover": "https://m.media-amazon.com/images/I/81ANaVZk5LL._AC_UF1000,1000_QL80_.jpg"
-      },
-      {
-        "id": 22,
-        "title": "Death of ivan ilych",
-        "author": "Leo Tolstoy",
-        "extract":"",
-        "parallels":["Song for Night by Chris Abani","Stillness by Courtney Brkic","Lord of the Flies by William Golding"],
-        "color_code":"",
-        "moodTags": ["feeling sad", "need motivation"],
-        "description": "A practical guide to building better habits and breaking bad ones.",
-        "cover": "https://covers.libro.fm/9781518909887_1120.jpg"
-      },
       {
         "id": 23,
         "title": "Beneath the Darkening Sky",
         "author": "Majok Tulba",
-        "color_code":"",
+        "color_code":"#f1cd6e",
         "moodTags": ["feeling sad", "need motivation"],
         "description": "The rebels measure each boy against an AK47 rifle. Those shorter are left behind. Those taller are taken. Eleven year old Obinna is taller. We feel mankind’s inhumanity brought to life for us through the voice of the boy soldier. The writing is easy to read and beautiful. The content is powerful, gripping, horrific, violent and explicit. This novel is illuminating; as innocence is stripped away what kind of creature do we become?",
         "extract":"White dust wraps around him as the pebbles dig and dig. The back of his head opens, and it's red for less than a moment before the pieces are painted grey. Each little stone takes a piece of him with it, less and less and less. Landmines don't kill you, they eat you.All this in an instant. Boom! The cloud and pebbles are huge and high, taking up all the air in front of me. Out of the cloud flies a grey dust-painted half-person. One leg and his stomach fly off the road. His left arm sails over my head. The wind from the mine kicks me backwards and I land on another boy",
@@ -260,7 +18,7 @@
         "extract":"Some people don't care if you're special. They will punish you anyway. Neighbours, for example, will report a girl, even a smart girl, with a girlfriend. The police will hurt you, if they get the chance. One person up the Okhotsk coast has been burned to death for this only a couple of years earlier. Masha moved away from home at seventeen; when she thought back on life in Kamchatka, she probably pictured volcanoes, tasted caviar, remembered hikes on stone paths to the clouds. She didn't understand what happened these days to girls as innocent as she and Lada had been. They were destroyed for it. Any girl would be. The Golosovsky sisters, who, walking alone, made themselves vulnerable - that one mistake cost them their lives.",
         "parallels":["Olive Kitteridge by Elizabeth Strout","Where The Edge Is by Grainne Murphy"],
         "color_code":"#004b7d",
-        "moodTags": ["happy"],
+        "moodTags": ["violent","low energy"],
         "cover": "https://www.whichbook.net/assets/bookcovers/12472.jpg"
       },
       {
@@ -271,7 +29,7 @@
         "extract":"My thoughts circle back . . . I remember being scared. Thinking no one was allowed to be this happy. That something must be wrong. Then cursing myself for thinking it. Forcing myself to be happy. Feel happy. Act happy. Was I role-playing again? I've spent the past few weeks hoping and wishing I could go back in time, fix everything that went wrong, but now I find myself wishing it had never happened.",
         "parallels":["Gone Girl by Gillian Flynn","Lies by T.M. Morgan"],
         "color_code":"#324b4b",
-        "moodTags": ["violent"],
+        "moodTags": ["violent","low energy"],
         "cover": "https://www.whichbook.net/assets/bookcovers/12441.jpg"
       },
       {
@@ -282,7 +40,7 @@
         "extract":"Zabalza came back with two printed sheets on which several sentences appeared to have been underlined.<br/>... 'confirms that the officers are linking the case with the recent murders of young girls in the Baztan Valley. The killer slashes their clothes and hairs of non-human origin have been found on the bodies. A terrible lord of the woods who kills within his domain.",
         "parallels":["Seeking Whom He May Devour by Fred Vargas","The Frozen Dead by Bernard Minier","I Know Who You Are - TV Series"],
         "color_code":"#4b4b32",
-        "moodTags": ["happy"],
+        "moodTags": ["feeling nostalgic","need motivation"],
         "cover": "https://www.whichbook.net/assets/bookcovers/12191.jpg"
       },
       {
@@ -293,7 +51,7 @@
         "extract":"The early mornings were different. Seven-thirty could feel like dawn. Pale light would fill the corridors; great shards of light, so perfect their edges could cut, would fall from upper windows. There was peace. The eucalyptus detergent used overnight lingered, masking every other smell that would later taint the place. That morning it felt like a benediction. Rachel inhaled the scent as if it could strip away the terror, the hideous thougths she couldn't fend off; as if it could clean her lungs, cleanse her thoughts, and make everything pure again.",
         "parallels":["Appletree Yard by Louise Doherty","Behind Her Eyes by Sarah Pinborough","Amy and Isabelle by Elizabeth Stout"],
         "color_code":"#7d3200",
-        "moodTags": ["happy"],
+        "moodTags": ["violent"],
         "cover": "https://www.whichbook.net/assets/bookcovers/12504.jpg"
       },
       {
@@ -304,7 +62,7 @@
         "extract":"Patrick goes straight to the kiosk and buys black coffee, pouring something into it from a hip flask that he takes from his briefcase. He doesn't offer me anything and something in his expression makes me reluctant either to question what he's doing or ask if I can join him, even when he lights up a cigarette in direct contravention of the No Smoking signs on the wall. My head's jangling, part of me hoping he'll touch me, drag me into whatever corner he wants and push me face first against the wall and force himself inside me. My mind flits to the text. I take my phone out of my bag and read it again.I know what ur doing u fucking slag.It can't mean this. No one knows about this. We've been so careful. I must be making a mistake that it's been sent to me ... <br/>...I push my phone deep into my jacket pocket, reluctant to discuss the text. If I don't mention it, maybe it'll go away.",
         "parallels":["Apple Tree Yard by Louise Doherty","The Secret of Not Drowning by Colette Snowdon","Anatomy of a Scandal by Sarah Vaughan"],
         "color_code":"#960019",
-        "moodTags": ["happy"],
+        "moodTags": ["violent","homesick"],
         "cover": "https://www.whichbook.net/assets/bookcovers/12337.jpg"
       },
       {
@@ -315,7 +73,7 @@
         "extract":"t was exactly the kind of dingy Edinburgh rental accommodation that she and her mother used to inhabit when Margaret was a girl ... despite a million buckets of Flash, or the yellow squirt of Jif around yet another stained old bath, each flat still contained a thin layer of melancholy, coating everything they touched. <br/>  It had taken Margaret a long time to realize that the melancholy didn’t come with the flat. It travelled with her.... It was only when Margaret fled to London and never looked back that she discovered the melancholy didn’t belong to her either. It belonged to her mother instead.",
         "parallels":["Elizabeth Is Missing by Emma Healy","What Was Lost by Catherine O'Flynn"],
         "color_code":"#194b4b",
-        "moodTags": ["happy"],
+        "moodTags": ["need motivation","happy"],
         "cover": "https://www.whichbook.net/assets/bookcovers/11902.jpg"
       },
       {
@@ -326,7 +84,7 @@
         "extract":"I lean forwards and make my hands into a secrets funnel. Jonathan and I invented the secrets funnel, but we're not allowed to use it when Papa's at home. Sister Ruth turns her head so that I can put the secrets funnel to her ear. <br/>'She wanted to kill Papa by accident,' I whisper.Sister Ruth's head spins around. Fright, I can see it quite clearly. I shake my head, grab her face and turn it back into the right position for the secrets funnel. 'You don't have to tell the police. Jonathan is taking care of the stains on the carpet.' ",
         "parallels":["Gone Girl by Gillian Flynn","The Fall - TV series","Like This, For Ever by Sharon Bolton"],
         "color_code":"#af0000",
-        "moodTags": ["violence"],
+        "moodTags": ["violent"],
         "cover": "https://www.whichbook.net/assets/bookcovers/12560.jpg"
       },
       {
@@ -337,7 +95,7 @@
         "extract":"The sound was coming from the phone receiver dangling next to her. Cautiously she reached for it and held it to her ear. 'Ellie' said the phone, 'it's mother'. And then 'Look, I haven't got time to play silly buggers. I know it's your number ....' 'All right. If that's the way you want it,' continued the phone. 'I'm ringing about Helen'. A sigh. 'Well, there's been an accident and I'm afraid she's in a coma. There. The others thought I should tell you. Left to myself, I probably wouldn't have b-but there we are at least this way you won't hear about it first on the news.' ... Another pause and then angrily, 'Don't you have anything to say?' .... Smudge closed her eyes and took a deep breath. 'I'm afraid you've got the wrong number,'she said, laying the words out one by one like coins on the counter of the offie.",
         "parallels":["Repeat it Today With Tears by Anne Peile","The Shock of the Fall by Nathan Filer"],
         "color_code":"#004b4b",
-        "moodTags": ["violence"],
+        "moodTags": ["violent","low energy"],
         "cover": "https://www.whichbook.net/assets/bookcovers/11795.jpg"
       },
       {
@@ -348,7 +106,7 @@
         "extract":" am unused to sitting still and do not know what to do with my hands. Part of me wants my father to leave me here while another part of me wants him to take me back, to what I know. I am in a spot where I can neither be what I always am nor turn into what I could be.",
         "parallels":["The Basement Room by Graham Greene","The David Byrnes Stories by -","Room by Emma Donoghue"],
         "color_code":"#644b4b",
-        "moodTags": ["happy"],
+        "moodTags": ["homesick","low energy"],
         "cover": "https://www.whichbook.net/assets/bookcovers/10367.jpg"
       }
       ,
@@ -371,7 +129,7 @@
         "extract":"The pink hat, ' she said.Suddenly all eyes were upon me. The next second, Frau Mahlberg had stepped forward and with a sharp jerk of her hand had pulled the pink hat from my head, almost taking a handful of hair with it.'Ow,' I said, but nobody heard me. Frau Mahlberg was screaming at the top of her voice, screaming like a stuck pig. She grabbed me by the shoulders and shook me until my teeth chattered. 'She's not Julia! She's not Julia!' she was shrieking, centimetres away from my face.",
         "parallels":["A Crime in the Neighbourhood by Suzanne Berne","Sharp Objects by Gillian Flynn","The Last Ride by Thomas Eidson"],
         "color_code":"#4b4b7d",
-        "moodTags": ["Violence"],
+        "moodTags": ["violent"],
         "cover": "https://www.whichbook.net/assets/bookcovers/9982.jpg"
       },
       {
@@ -410,7 +168,7 @@
         "title": "Jackal",
         "author": "Erin E Adams",
         "description": "Horror, thriller and fantasy meet in this novel, which kept me awake through the night wanting to see how it would end. Liz, a troubled black woman, visits her nearly all-white birthplace to attend the wedding of her best friend Mel. When Mel’s young daughter disappears, it sets in motion long-forgotten memories of a creature in the woods that abducts and maims little black girls. Tense, page-turning stuff.",
-        "extract":"The violence of the abduction was swift. One moment she was there, the next she was gone, In the seconds before she was dragged into the trees, she still wasn't afraid. She'd reached past that feeling to findsomething more useful.Hope.She prayed- not that nothing bad would happen. She clung to the hope she'd see daylight again. She'd have a chance to laugh with her friends again. She'd see her family. Whispers of these desires escaped her lips. With each one that did, his grip on her grew tighter. When her shoulder gave in a painful pop, she cried out. He looked back at her. He witnessed her pain with curiosity. Like it had never occurred to him she could feel the sensation at all.Beyond this disconnect, Morgan saw him. Sadness morphed into apathetic hate: He made his misery hers. That was when Morgan felt true fear. She didn't need to be an adult to know that sad men are the most dangerous",
+        "extract":"The violent of the abduction was swift. One moment she was there, the next she was gone, In the seconds before she was dragged into the trees, she still wasn't afraid. She'd reached past that feeling to findsomething more useful.Hope.She prayed- not that nothing bad would happen. She clung to the hope she'd see daylight again. She'd have a chance to laugh with her friends again. She'd see her family. Whispers of these desires escaped her lips. With each one that did, his grip on her grew tighter. When her shoulder gave in a painful pop, she cried out. He looked back at her. He witnessed her pain with curiosity. Like it had never occurred to him she could feel the sensation at all.Beyond this disconnect, Morgan saw him. Sadness morphed into apathetic hate: He made his misery hers. That was when Morgan felt true fear. She didn't need to be an adult to know that sad men are the most dangerous",
         "parallels":["The Invisible Guardian by Dolores Redondo","The Nickel Boys by Colson Whitehead","The Outsider by Stephen King"],
         "color_code":"#c81919",
         "moodTags": ["happy"],
@@ -573,7 +331,7 @@
         "id":55,
         "title": "The Rabbit Factor",
         "author": "Antti Tuomainen",
-        "description": "This book sets off at pace and doesn't let up throughout as our reluctant hero desperately tries to stay one step ahead of some very nasty people. A clever and surprising tale told with warmth and humour even while an ever-present threat of violence clings to the main characters - and you won't be able to put it down!",
+        "description": "This book sets off at pace and doesn't let up throughout as our reluctant hero desperately tries to stay one step ahead of some very nasty people. A clever and surprising tale told with warmth and humour even while an ever-present threat of violent clings to the main characters - and you won't be able to put it down!",
         "extract":"The dual scent of Laura Helanto and the cinnamon buns. Laura with her bushy hair and large, dark-rimmed glasses on the other side of the table, the cinnamon buns the size of dinner plates in the middle. The coffee maker is gurgling away, and I’ve got my work cut out trying to control myself. For some reason, I feel the need to explain why I have slept this late, that this wasn’t a trivial matter of oversleeping. That the real reason is that I saved my skin by the shores of a dark pond with ten thousand euros, half of which – a down payment – I took from an ATM in the wall of a large hypermarket I’d never seen before, and that I was already tired from lack of sleep the night before when, in self-defence, I killed a man with the enormous rabbit’s ear, which you described as especially ‘unpredictable’, and because dragging the man’s body into the freezer in the café’s kitchen was a two-hour operation requiring raw physical exertion. Instead, I remain quiet, raise a hand to check my tie is straight and notice that my hand is trembling.",
         "parallels":["Sick Puppy by Carl Hiaasen","A Man With One of Those Faces by Ciamh McDonnell"],
         "color_code":"#7d3200",
@@ -655,7 +413,7 @@
         "cover": "https://www.whichbook.net/assets/bookcovers/10389.jpg?height=500"
       },{
         "id":63,
-        "title": "A Possibility of Violence",
+        "title": "A Possibility of violent",
         "author": "D A Mishani",
         "description": "Some crime novels you are there, right in the thick of it, living and breathing every move of the detective. But this book is different and it's that difference that's so compelling. Inspector Avraham comes across as an reluctant detective, maybe jaded, doing the job because he's good at it. Reading it I felt as though I was watching the story unfold through one-way glass in the room next door.",
         "extract":"Had he already known when he woke up that the reason for the trip wasn't only to avoid the police's interrogation? The questioning at the station had scared him less the day after. When he had left the station, his hands trembled on the car's steering wheel, but since he had started carrying out the plan, the shaking had ceased. He was frightened not because of the questions the detective had posed to him but rather because of those he had not. And he had no reason to panic. At night he'd spoken with Chava Cohen and the conversation had gone well. The investigation had certainly turned away from him, or would do so in the days to come. He could have cancelled the trip - and in retrospect, if he had cancelled it, it was possible he wouldn't have been caught - but he already wanted to get away for other reasons.",
@@ -2646,7 +2404,7 @@
           "extract":"I lean forwards and make my hands into a secrets funnel. Jonathan and I invented the secrets funnel, but we're not allowed to use it when Papa's at home. Sister Ruth turns her head so that I can put the secrets funnel to her ear. <br/>'She wanted to kill Papa by accident,' I whisper.Sister Ruth's head spins around. Fright, I can see it quite clearly. I shake my head, grab her face and turn it back into the right position for the secrets funnel. 'You don't have to tell the police. Jonathan is taking care of the stains on the carpet.' ",
           "parallels":["Gone Girl by Gillian Flynn","The Fall - TV series","Like This, For Ever by Sharon Bolton"],
           "color_code":"#af0000",
-          "moodTags": ["violence"],
+          "moodTags": ["violent"],
           "cover": "https://www.whichbook.net/assets/bookcovers/12560.jpg"
         },
         {
@@ -2656,7 +2414,7 @@
           "extract":"The sound was coming from the phone receiver dangling next to her. Cautiously she reached for it and held it to her ear. 'Ellie' said the phone, 'it's mother'. And then 'Look, I haven't got time to play silly buggers. I know it's your number ....' 'All right. If that's the way you want it,' continued the phone. 'I'm ringing about Helen'. A sigh. 'Well, there's been an accident and I'm afraid she's in a coma. There. The others thought I should tell you. Left to myself, I probably wouldn't have b-but there we are at least this way you won't hear about it first on the news.' ... Another pause and then angrily, 'Don't you have anything to say?' .... Smudge closed her eyes and took a deep breath. 'I'm afraid you've got the wrong number,'she said, laying the words out one by one like coins on the counter of the offie.",
           "parallels":["Repeat it Today With Tears by Anne Peile","The Shock of the Fall by Nathan Filer"],
           "color_code":"#004b4b",
-          "moodTags": ["violence"],
+          "moodTags": ["violent"],
           "cover": "https://www.whichbook.net/assets/bookcovers/11795.jpg"
         }
       ]
@@ -2696,7 +2454,7 @@
           "extract":"The pink hat, ' she said.Suddenly all eyes were upon me. The next second, Frau Mahlberg had stepped forward and with a sharp jerk of her hand had pulled the pink hat from my head, almost taking a handful of hair with it.'Ow,' I said, but nobody heard me. Frau Mahlberg was screaming at the top of her voice, screaming like a stuck pig. She grabbed me by the shoulders and shook me until my teeth chattered. 'She's not Julia! She's not Julia!' she was shrieking, centimetres away from my face.",
           "parallels":["A Crime in the Neighbourhood by Suzanne Berne","Sharp Objects by Gillian Flynn","The Last Ride by Thomas Eidson"],
           "color_code":"#4b4b7d",
-          "moodTags": ["Violence"],
+          "moodTags": ["violent"],
           "cover": "https://www.whichbook.net/assets/bookcovers/9982.jpg"
         },
         {
@@ -2741,7 +2499,7 @@
           "title": "Jackal",
           "author": "Erin E Adams",
           "description": "Horror, thriller and fantasy meet in this novel, which kept me awake through the night wanting to see how it would end. Liz, a troubled black woman, visits her nearly all-white birthplace to attend the wedding of her best friend Mel. When Mel’s young daughter disappears, it sets in motion long-forgotten memories of a creature in the woods that abducts and maims little black girls. Tense, page-turning stuff.",
-          "extract":"The violence of the abduction was swift. One moment she was there, the next she was gone, In the seconds before she was dragged into the trees, she still wasn't afraid. She'd reached past that feeling to findsomething more useful.Hope.She prayed- not that nothing bad would happen. She clung to the hope she'd see daylight again. She'd have a chance to laugh with her friends again. She'd see her family. Whispers of these desires escaped her lips. With each one that did, his grip on her grew tighter. When her shoulder gave in a painful pop, she cried out. He looked back at her. He witnessed her pain with curiosity. Like it had never occurred to him she could feel the sensation at all.Beyond this disconnect, Morgan saw him. Sadness morphed into apathetic hate: He made his misery hers. That was when Morgan felt true fear. She didn't need to be an adult to know that sad men are the most dangerous",
+          "extract":"The violent of the abduction was swift. One moment she was there, the next she was gone, In the seconds before she was dragged into the trees, she still wasn't afraid. She'd reached past that feeling to findsomething more useful.Hope.She prayed- not that nothing bad would happen. She clung to the hope she'd see daylight again. She'd have a chance to laugh with her friends again. She'd see her family. Whispers of these desires escaped her lips. With each one that did, his grip on her grew tighter. When her shoulder gave in a painful pop, she cried out. He looked back at her. He witnessed her pain with curiosity. Like it had never occurred to him she could feel the sensation at all.Beyond this disconnect, Morgan saw him. Sadness morphed into apathetic hate: He made his misery hers. That was when Morgan felt true fear. She didn't need to be an adult to know that sad men are the most dangerous",
           "parallels":["The Invisible Guardian by Dolores Redondo","The Nickel Boys by Colson Whitehead","The Outsider by Stephen King"],
           "color_code":"#c81919",
           "moodTags": ["happy"],
@@ -2928,7 +2686,7 @@
         },{
           "title": "The Rabbit Factor",
           "author": "Antti Tuomainen",
-          "description": "This book sets off at pace and doesn't let up throughout as our reluctant hero desperately tries to stay one step ahead of some very nasty people. A clever and surprising tale told with warmth and humour even while an ever-present threat of violence clings to the main characters - and you won't be able to put it down!",
+          "description": "This book sets off at pace and doesn't let up throughout as our reluctant hero desperately tries to stay one step ahead of some very nasty people. A clever and surprising tale told with warmth and humour even while an ever-present threat of violent clings to the main characters - and you won't be able to put it down!",
           "extract":"The dual scent of Laura Helanto and the cinnamon buns. Laura with her bushy hair and large, dark-rimmed glasses on the other side of the table, the cinnamon buns the size of dinner plates in the middle. The coffee maker is gurgling away, and I’ve got my work cut out trying to control myself. For some reason, I feel the need to explain why I have slept this late, that this wasn’t a trivial matter of oversleeping. That the real reason is that I saved my skin by the shores of a dark pond with ten thousand euros, half of which – a down payment – I took from an ATM in the wall of a large hypermarket I’d never seen before, and that I was already tired from lack of sleep the night before when, in self-defence, I killed a man with the enormous rabbit’s ear, which you described as especially ‘unpredictable’, and because dragging the man’s body into the freezer in the café’s kitchen was a two-hour operation requiring raw physical exertion. Instead, I remain quiet, raise a hand to check my tie is straight and notice that my hand is trembling.",
           "parallels":["Sick Puppy by Carl Hiaasen","A Man With One of Those Faces by Ciamh McDonnell"],
           "color_code":"#7d3200",
@@ -3022,7 +2780,7 @@
           "moodTags": ["happy"],
           "cover": "https://www.whichbook.net/assets/bookcovers/10389.jpg?height=500"
         },{
-          "title": "A Possibility of Violence",
+          "title": "A Possibility of violent",
           "author": "D A Mishani",
           "description": "Some crime novels you are there, right in the thick of it, living and breathing every move of the detective. But this book is different and it's that difference that's so compelling. Inspector Avraham comes across as an reluctant detective, maybe jaded, doing the job because he's good at it. Reading it I felt as though I was watching the story unfold through one-way glass in the room next door.",
           "extract":"Had he already known when he woke up that the reason for the trip wasn't only to avoid the police's interrogation? The questioning at the station had scared him less the day after. When he had left the station, his hands trembled on the car's steering wheel, but since he had started carrying out the plan, the shaking had ceased. He was frightened not because of the questions the detective had posed to him but rather because of those he had not. And he had no reason to panic. At night he'd spoken with Chava Cohen and the conversation had gone well. The investigation had certainly turned away from him, or would do so in the days to come. He could have cancelled the trip - and in retrospect, if he had cancelled it, it was possible he wouldn't have been caught - but he already wanted to get away for other reasons.",

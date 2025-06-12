@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import { BestSeller } from "@/types/type";
 import axios from "axios";
 import Link from "next/link";
+import Image from "next/image";
 
 const BestSellersComponent = () => {
   
@@ -53,11 +54,14 @@ const BestSellersComponent = () => {
                         return <SwiperSlide key={index}>
                         <div className="overflow-hidden shadow-lg">
                            <Link href={`/best-sellers-item/${book.title}`}> 
-                          <img
-                            src={book.home_cover || "./fallback"}
-                            alt={`Book ${book.title}`}
-                            className="w-full object-cover hover:scale-105 transition-transform duration-300"
-                          />
+                           <Image
+  src={book.home_cover || "/fallback.jpg"} // مسیر درست به fallback
+  alt={`Book ${book.title}`}
+  className="w-full object-cover hover:scale-105 transition-transform duration-300"
+  width={500}
+  height={300}
+/>
+
                           </Link>
                         </div>
                       </SwiperSlide>

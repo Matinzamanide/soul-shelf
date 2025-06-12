@@ -1,4 +1,5 @@
 import { BestSeller } from "@/types/type";
+import Image from "next/image";
 import Link from "next/link";
 
 interface BestSellersItemProps {
