@@ -6,7 +6,6 @@ import axios from "axios";
 import { IBook } from "@/types/type";
 import Book from "@/components/book/book";
 import BookItemSkelton from "@/components/book-item-skelton/book-item-skelton";
-
 const MoodEmotion = () => {
  
 
@@ -33,7 +32,7 @@ const MoodEmotion = () => {
 
   return (
     <div>
-      <h1 className="text-3xl hidden lg:block font-bold text-center my-8 text-black">
+      <h1 className="text-3xl   font-bold text-center my-8 text-black">
         Choose Your Mood
       </h1>
       <Navbar selectedMood={selectedMood} setSelectedMood={setSelectedMood} />

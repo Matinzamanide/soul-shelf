@@ -2,10 +2,7 @@ import BestSellersComponent from "@/components/best-sellers/best-sellers";
 import Book from "@/components/book/book";
 import Summary from "@/components/summary/summary";
 import Trend from "@/components/trend/trend";
-
 const HomePage = () => {
-  
-
 
   return ( 
     <div className="">
