@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction } from "react";
 import { FiHome, FiZap, FiSmile, FiClock, FiHeart } from "react-icons/fi";
 import { PiMaskSadFill } from "react-icons/pi";
 
