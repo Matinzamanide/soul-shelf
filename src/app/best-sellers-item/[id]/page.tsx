@@ -16,7 +16,7 @@ const BestSellersItem: React.FC<BestSellersItemProps> = async (props) => {
       </h1>
       <div className="flex flex-col lg:flex-row p-4 lg:p-10 lg:w-[95%]">
         <div className="right lg:w-[40%] flex flex-col items-center ">
-          <Image width={224} height={224} src={data.main_cover} className="h-[500px] mt-10 w-1/2" alt="" />
+          <Image width={500} height={500} src={data.main_cover} className="h-[300px] mt-10 w-1/2" alt="" />
           <p className="font-semibold mt-4">
             {data.title} &nbsp; by &nbsp; {data.author}
           </p>
@@ -36,7 +36,7 @@ const BestSellersItem: React.FC<BestSellersItemProps> = async (props) => {
                   </div>
 
 
-                  <div className="lg:w-[60%] p-8">
+                  <div className="lg:w-[70%] p-8">
                     <h2 className="text-xl font-semibold">{item.title}</h2>
                     <p className="my-3 font-semibold">{item.author}</p>
                     <p>{item.description}</p>

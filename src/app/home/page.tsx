@@ -2,6 +2,7 @@ import BestSellersComponent from "@/components/best-sellers/best-sellers";
 import Book from "@/components/book/book";
 import Summary from "@/components/summary/summary";
 import Trend from "@/components/trend/trend";
+import Link from "next/link";
 const HomePage = () => {
 
   return ( 
@@ -17,9 +18,9 @@ const HomePage = () => {
   Fancy something unusual and unpredictable? Funny or sexy? No problem. Use our unique mood and emotion search to find great books with exactly the flavour you&apos;ve asked for.
 </p>
 
-          <button className="bg-[#1a1a1a] cursor-pointer text-white px-4 py-2 mt-4 rounded hover:bg-[#333] transition-colors">
+          <Link href={'/mood-emotion'} className="bg-[#1a1a1a] cursor-pointer text-white px-4 py-2 mt-4 rounded hover:bg-[#333] transition-colors">
           Choose: Mood & Emotion Search 
-          </button>
+          </Link>
         </div>
       </div>
 
