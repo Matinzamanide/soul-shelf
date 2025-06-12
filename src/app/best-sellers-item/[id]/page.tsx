@@ -7,7 +7,7 @@ interface BestSellersItemProps {
 }
 const BestSellersItem: React.FC<BestSellersItemProps> = async (props) => {
   const { id } = await props.params;
-  const res = await fetch(`http://www.sarirniroo.ir/Mobile/bestSellers?title=${id}`);
+  const res = await fetch(`https://www.sarirniroo.ir/Mobile/bestSellers?title=${id}`);
   const data = (await res.json())[0] as BestSeller;
   return (
     <div className="bg-[#31353d] text-white">

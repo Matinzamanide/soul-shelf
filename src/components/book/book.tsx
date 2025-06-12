@@ -10,7 +10,7 @@ const Book = () => {
   const [data, setData] = useState<IBook>();
   useEffect(() => {
     if (id) {
-      axios(`http://www.sarirniroo.ir/Mobile/books/${id}`)
+      axios(`https://www.sarirniroo.ir/Mobile/books/${id}`)
         .then((result) => {
           setData(result.data);
         })

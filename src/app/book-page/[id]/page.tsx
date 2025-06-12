@@ -7,7 +7,7 @@ interface IBookPageProps {
 const BookPage: React.FC<IBookPageProps> = async (props) => {
   const { id } = await props.params;
 
-  const res = await fetch(`http://www.sarirniroo.ir/Mobile/books?title=${id}`);
+  const res = await fetch(`https://www.sarirniroo.ir/Mobile/books?title=${id}`);
   const data = (await res.json())[0] as IBook;
   return (
     <div className="">

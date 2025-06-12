@@ -16,7 +16,7 @@ const BestSellersComponent = () => {
   
   const [data, setData] = useState<BestSeller[]>([]);
   useEffect(() => {
-    axios("http://www.sarirniroo.ir/Mobile/bestSellers")
+    axios("https://www.sarirniroo.ir/Mobile/bestSellers")
       .then((result) => {
         setData(result.data.slice(0,11));
       })

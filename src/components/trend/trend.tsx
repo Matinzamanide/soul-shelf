@@ -16,7 +16,7 @@ const Trend = () => {
   const [data, setData] = useState<IBook[]>([]);
 
   useEffect(() => {
-    axios("http://www.sarirniroo.ir/Mobile/books")
+    axios("https://www.sarirniroo.ir/Mobile/books")
       .then((result) => {
         setData(result.data.slice(0, 10));
       })

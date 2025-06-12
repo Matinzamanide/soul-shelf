@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const BestSellers = async () => {
-    const res=await fetch('http://www.sarirniroo.ir/Mobile/bestSellers');
+    const res=await fetch('https://www.sarirniroo.ir/Mobile/bestSellers');
     const data=await res.json() as BestSeller[]; 
 
     return ( 
