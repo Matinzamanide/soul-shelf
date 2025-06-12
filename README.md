@@ -22,7 +22,7 @@ A beautiful, responsive book discovery platform built with **Next.js**, powered 
 
 | Home Page                                                 | Country Page                                                 |
 |-----------------------------------------------------------|--------------------------------------------------------------|
-| ![Home](https://api.sarirniroo.ir/SoulShelf-countries.png)| ![Country](https://api.sarirniroo.ir/SoulShelf-home.png)     |
+| ![Home](https://api.sarirniroo.ir/SoulShelf-home.png)     | ![Country](https://api.sarirniroo.ir/SoulShelf-countries.png)|
 
 
 ---
