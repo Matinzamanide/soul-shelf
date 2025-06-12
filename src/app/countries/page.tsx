@@ -5,7 +5,6 @@ import CountriesItem, {
 const Countries = async () => {
   const res = await fetch("https://www.sarirniroo.ir/Mobile/countries");
   const data = await res.json();
-  data;
   return (
     <div className="">
       <div className="w-[90%] mx-auto">
