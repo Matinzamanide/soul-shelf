@@ -4,7 +4,6 @@ import Link from "next/link";
 
 interface ICountryProps {
   params: Promise<{ id: String }>;
-  searchParams: Promise<{}>;
 }
 const Country: React.FC<ICountryProps> = async (props) => {
   const { id } = await props.params;

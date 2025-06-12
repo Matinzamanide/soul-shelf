@@ -2,7 +2,7 @@
 import AppContext from "@/app-context/app-context";
 import { IBook } from "@/types/type";
 import Image from "next/image";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 
 const BookItem: React.FC<IBook> = ({
   id,

@@ -1,7 +1,10 @@
 "use client";
-import React from "react";
-import { IChildren } from "@/components/container/container";
-import { createContext, useState } from "react";
+import React, { createContext, useState } from "react";
+
+type Props = {
+  children: React.ReactNode;
+};
+
 interface IAppContext {
   menu: boolean;
   id: number;
@@ -10,14 +13,24 @@ interface IAppContext {
   menuHandler: () => void;
 }
 
-const AppContext = createContext({} as IAppContext);
+const defaultContext: IAppContext = {
+  menu: false,
+  id: 0,
+  setId: () => {},
+  setMenu: () => {},
+  menuHandler: () => {},
+};
 
-export const AppContextProvider: React.FC<IChildren> = ({ children }) => {
+const AppContext = createContext<IAppContext>(defaultContext);
+
+export const AppContextProvider: React.FC<Props> = ({ children }) => {
   const [menu, setMenu] = useState<boolean>(false);
   const [id, setId] = useState<number>(0);
+
   const menuHandler = () => {
-    setMenu(!menu);
+    setMenu((prev) => !prev);
   };
+
   return (
     <AppContext.Provider value={{ menu, setMenu, menuHandler, id, setId }}>
       {children}

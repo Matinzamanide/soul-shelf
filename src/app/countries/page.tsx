@@ -1,4 +1,4 @@
-import CountriesItem from "@/components/countries-item/countries-item";
+import CountriesItem, { CountriesItemProps } from "@/components/countries-item/countries-item";
 
 const Countries = async () => {
   const res = await fetch("https://www.sarirniroo.ir/Mobile/countries");
@@ -11,7 +11,7 @@ const Countries = async () => {
           Books from ...
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
-          {data.map((item: any) => {
+          {data.map((item: CountriesItemProps) => {
             return (
               <CountriesItem
                 key={item.flag_url}

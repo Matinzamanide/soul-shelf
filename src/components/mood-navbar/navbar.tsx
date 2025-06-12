@@ -18,7 +18,6 @@ const Navbar: React.FC<INavabr> = ({ setSelectedMood, selectedMood }) => {
     { label: "violent", icon: <PiMaskSadFill /> },
   ];
 
-  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className=" mb-6 ">

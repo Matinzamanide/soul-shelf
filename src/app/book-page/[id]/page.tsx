@@ -3,7 +3,6 @@ import Image from "next/image";
 
 interface IBookPageProps {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{}>;
 }
 const BookPage: React.FC<IBookPageProps> = async (props) => {
   const { id } = await props.params;
