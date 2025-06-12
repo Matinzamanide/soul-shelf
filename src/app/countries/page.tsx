@@ -1,9 +1,11 @@
-import CountriesItem, { CountriesItemProps } from "@/components/countries-item/countries-item";
+import CountriesItem, {
+  CountriesItemProps,
+} from "@/components/countries-item/countries-item";
 
 const Countries = async () => {
   const res = await fetch("https://www.sarirniroo.ir/Mobile/countries");
   const data = await res.json();
-  console.log(data);
+  data;
   return (
     <div className="">
       <div className="w-[90%] mx-auto">

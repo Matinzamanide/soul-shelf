@@ -21,7 +21,7 @@ const BestSellersComponent = () => {
         setData(result.data.slice(0,11));
       })
       .catch((error) => {
-        console.log("Error : ", error);
+        console.error("Error : ", error);
       });
   }, []);
   return (

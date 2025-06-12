@@ -6,7 +6,6 @@ const BestSellers = async () => {
     const res=await fetch('http://www.sarirniroo.ir/Mobile/bestSellers');
     const data=await res.json() as BestSeller[]; 
 
-    console.log(data)
     return ( 
         <div className="bg-[#31353d] text-center pb-10">
             <div className="text-white w-[80%] mx-auto">

@@ -17,7 +17,6 @@ const MoodEmotion = () => {
     axios("http://www.sarirniroo.ir/Mobile/books")
       .then((result) => {
         setData(result.data);
-        console.log(result.data);
       })
       .catch((error) => {
         console.error("Error fetching Books : ", error);

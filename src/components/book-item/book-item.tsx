@@ -16,7 +16,6 @@ const BookItem: React.FC<IBook> = ({
   const openContainer = () => {
     menuHandler();
     setId(Number(id)); 
-    console.log(`BookItem clicked with id: ${id}`); 
   };
   return (
     <div

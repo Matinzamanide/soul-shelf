@@ -13,7 +13,6 @@ const Book = () => {
       axios(`http://www.sarirniroo.ir/Mobile/books/${id}`)
         .then((result) => {
           setData(result.data);
-          console.log(result.data[0]);
         })
         .catch((error) => {
           console.error("Error fetching Books: ", error);

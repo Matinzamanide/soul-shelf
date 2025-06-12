@@ -3,15 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface BestSellersItemProps {
-  params: Promise<{ id: String }>;
-  searchParams: Promise<{}>;
+  params: Promise<{ id: string }>;
 }
 const BestSellersItem: React.FC<BestSellersItemProps> = async (props) => {
   const { id } = await props.params;
-  console.log("id", id);
   const res = await fetch(`http://www.sarirniroo.ir/Mobile/bestSellers?title=${id}`);
   const data = (await res.json())[0] as BestSeller;
-  console.log(data);
   return (
     <div className="bg-[#31353d] text-white">
       <h1 className="text-2xl font-semibold text-center py-7">

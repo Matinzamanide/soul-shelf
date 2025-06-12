@@ -3,11 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface ICountryProps {
-  params: Promise<{ id: String }>;
+  params: Promise<{ id: string }>;
 }
 const Country: React.FC<ICountryProps> = async (props) => {
   const { id } = await props.params;
-  console.log(id);
   const res = await fetch(`http://www.sarirniroo.ir/Mobile/countries/${id}`);
   const data = (await res.json()) as Country;
   if (!data) {
